@@ -1,14 +1,13 @@
 import "./App.css";
 import Section from "./components/Section";
+import sectionData from "./static-data/sections";
 
 function App() {
   return (
     <div className="App">
-      <Section title="Projects" content="Waaaw" />
-      <Section title="About" content="Abouuuuttttt" />
-      <Section title="Blogs" content="Abouuuuttttt" />
-      <Section title="Contact" content="Abouuuuttttt" />
-      {/* {Section({ title: "Projects" })} */}
+      {sectionData.map((data, index) => (
+        <Section key={index} title={data.title} content={data.content} />
+      ))}
     </div>
   );
 }
