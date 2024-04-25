@@ -1,12 +1,13 @@
 import "./styles.css";
 
-const Section = ({ title, children }) => {
+const Section = ({ title, children,id }) => {
   return (
-    <div className="wrapper">
+    <div id={id} className="wrapper">
       <div className="title-subtitle-container">
         <h1>{title}</h1>
-        {children}
       </div>
+      {children}
+      <div className="space"></div>
     </div>
   );
 };

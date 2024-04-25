@@ -1,10 +1,22 @@
+.wrapper{
+    padding-top: 100px;
+
+}
+
 
 .title-subtitle-container{
-    border: 2px solid black;
+    border: 2px solid white;
     display: flex;
     gap: 40px;
     align-items: center;
     width: 600px;
     text-align: left;
+    color: aqua;
+    padding: 50px;
+}
+
+.space{
+    height: 700px;
+    border: 2px solid red;
 }
 
