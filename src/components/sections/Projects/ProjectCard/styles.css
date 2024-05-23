@@ -1,0 +1,14 @@
+.card-container{
+    width: 500px;
+    height: 500px;
+    color: aliceblue;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
